@@ -9,8 +9,8 @@ RTCDateTime DateTime;// Определяем сущность структуры
 extern uint8_t BigFont[],SmallFont[];
 UTFT myGLCD ( ILI9225B, 13, 14, 15, 2, 12 );//SDI (MOSI), SCK, CS, RESET, DC == D7 D5 D8 D3 D6
  
-const char* ssid = "rolph";
-const char* password = "8c3dbf6715";
+const char* ssid = "ssid";
+const char* password = "parola";
 char host[] = "export.yandex.ru"; 
 const int port = 443;
 const char fingerprint[] PROGMEM = "F3 DB F7 38 AA 71 13 15 1E E8 53 FC 0F 29 8C AB 3D F4 80 9F"; 
